@@ -24,13 +24,13 @@ nav a {
     align-items: center;
 }
 
-.headerjumbo {
-    color: orange;
+a {
+    text-transform: uppercase;
 }
 
 header {
     background-image: url(images/headerback.jpg);
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
     padding: 100px;
     margin: 0;
@@ -92,13 +92,13 @@ h2 {
 .div1 {
     display: flex;
     margin-left: 200px;
-     
+    font-family: Georgia, 'Times New Roman', Times, serif;
     justify-content: center;
      
      
 }
 
-.div1img1, .div1img2, .div1img3, .div1img4, .div1img5, .div1img6 {
+.div1img1, .div1img2, .div1img3, .div1img4, .div1img5, .div1img6, .div1img7 {
     text-align: center;
     
 }
@@ -124,11 +124,11 @@ h2 {
 .textdiv1 {
     margin: 5px  150px 5px 5px;
     padding: 5px 45px 5px 20px;
-    border-left: 3px rgb(16, 124, 167) solid;
+    border-left: 3px #273070 solid;
 }
 
 .div1h3 {
-    color:  rgb(16, 124, 167) ;
+    color:  #273070 ;
 }
 
 
@@ -142,19 +142,32 @@ h2 {
     display: grid;
     grid-template-areas: 
     "aa ab ac"
-    "ad ae af";
+    "ad ae af"
+    "ag ag ag";
     column-gap: 20px;
     row-gap: 20px;
     justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+.div2 p {
+    text-transform: uppercase;
+    color: rgb(180, 134, 47);
+    margin-top: 10px;
+    border: 1px solid orange;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+}
 .div2 img, .div3 img, .img3 {
     width: 280px;
     height: 170px;
     border-radius: 20px;
+    border: solid navy;
 }
 
- 
+.div2 a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #273070;
+}
 
 /* div 3 */
 
@@ -163,19 +176,17 @@ h2 {
     display: flex;
     align-content: center;
     justify-content: center;
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 
-.div3 h5 {
-    color: orange;
-}
 
 .div3 .card-title{
     font-size: 12px;
     text-align: center;
     color: navy;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 .div3 .card-text {
@@ -190,10 +201,7 @@ h2 {
 
 .card-text, .minidiv4 {
     width: 285px;
-    padding: 5px;
-     
-
-     
+    padding: 5px;     
 }
 
 
@@ -251,17 +259,57 @@ i {
 
 @media only screen and (max-width: 950px) {
     /* portfolio seccion when screen is medium */
+    
+    .h2, h2{
+        font-size: 25px;
+    }
+    
+    
     .div2 {
         display: grid;
         grid-template-areas: 
         "aa ab"
         "ac ad"
         "ae af"
+        "ag ag"
         ;
         
     
         
     }
+
+    .div1{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .div1h3{
+        text-align: center;
+    }
+    
+    .textdiv1 {
+        margin: 5px;
+        border: 3px rgb(224 218 225) solid
+    }
+
+    .imgp1{
+        display: none;
+    }
+
+    .imgdiv{
+        text-align: center;
+    }
+
+    .headerjumbo{
+        font-size: 30px;
+    }
+
+    .abs1, .abs2{
+        font-size: 25px;
+    }
+
 }
 
 
@@ -277,27 +325,50 @@ i {
         "ac"
         "ad"
         "ae"
-        "af";
-        
-    
-        
+        "af"
+        "ag";
+    }    
+
+    .div2 p{
+        background-color: #c06474;
+        color: #273070;
     }
+
+    .h2, h2{
+        font-size: 18px;
+    }
+        
+   
     
      .div1 {
         display: block;
         margin-left: 20px;
     }
-    
+    .img1{
+        max-height: 200px;
+        max-width: 200px;
+        position: relative;
+        bottom: 25px;
+    }
     .div3  {
         display:flex;
         flex-direction: column;
-        margin-left: 100px;
-        
+        align-items: center;
         
         
         
         
     }
+
+    
+    .headerjumbo{
+        font-size: 20px;
+    }
+
+    .abs1, .abs2{
+        font-size: 15px;
+    }
+
 
 }
  

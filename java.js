@@ -4,8 +4,8 @@
 let allH2 = document.getElementsByTagName("h2")
 for (let i = 0; i < allH2.length; i++) {
     allH2[i].addEventListener('mouseover', () => {
-        allH2[i].style.color= "black"
-        allH2[i].style.backgroundColor = "aliceblue"
+        allH2[i].style.color= "white"
+        allH2[i].style.backgroundColor = "black"
         allH2[i].style.fontFamily = "garamond"
     })
 }
@@ -21,13 +21,13 @@ let allImages = document.getElementsByTagName("img")
 
 for (let i = 0; i < allImages.length; i++) {
     allImages[i].addEventListener('mouseover', () => {
-        allImages[i].style.border= "2px solid black"
+        allImages[i].style.border= "2px solid aliceblue"
     })    
 }
 
 for (let i = 0; i < allImages.length; i++) {
     allImages[i].addEventListener('mouseleave', () => {
-        allImages[i].style.border= ""
+        allImages[i].style.border= "2px solid black"
     })    
 }
 
