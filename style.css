@@ -30,7 +30,7 @@ a {
 
 header {
     background-image: url(images/headerback.jpg);
-    height: 80vh;
+    height: 50vh;
     background-size: cover;
     padding: 100px;
     margin: 0;
@@ -39,7 +39,6 @@ header {
     
 
 }
-
 
 .headerjumbo {
     text-align: center;
@@ -156,7 +155,12 @@ h2 {
     border: 1px solid orange;
     font-family: 'Arial Narrow Bold', sans-serif;
     background-color: black;
+    padding: 5px;
 }
+
+
+
+
 .div2 img, .div3 img, .img3 {
     width: 280px;
     height: 170px;
