@@ -140,9 +140,9 @@ h2 {
 .div2 {
     display: grid;
     grid-template-areas: 
-    "ah ab ac"
+    "aa ab ac"
     "ad ae af"
-    "ag ag aa";
+    "ag ag ah";
     column-gap: 20px;
     row-gap: 20px;
     justify-content: center;
@@ -156,6 +156,7 @@ h2 {
     font-family: 'Arial Narrow Bold', sans-serif;
     background-color: black;
     padding: 5px;
+    text-align: center;
 }
 
 
