@@ -140,9 +140,10 @@ h2 {
 .div2 {
     display: grid;
     grid-template-areas: 
-    "aa ab ac"
-    "ad ae af"
-    "ag ag ah";
+    "aj aj aj"
+    "ai ah ag"
+    "af ae ad"
+    "ac ab aa";
     column-gap: 20px;
     row-gap: 20px;
     justify-content: center;
@@ -274,10 +275,11 @@ i {
     .div2 {
         display: grid;
         grid-template-areas: 
-        "ah ab"
-        "ac ad"
-        "ae af"
-        "ag aa"
+        "aj ai"
+        "ah ag"
+        "af ae"
+        "ad ac"
+        "ab aa"
         ;
         
     
@@ -332,13 +334,15 @@ i {
     .div2 {
         display: grid;
         grid-template-areas: 
+        "aj"
+        "ai"
         "ah"
-        "ab"
-        "ac"
-        "ad"
-        "ae"
-        "af"
         "ag"
+        "af"
+        "ae"
+        "ad"
+        "ac"
+        "ab"
         "aa";
     }    
 
